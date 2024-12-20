@@ -25,8 +25,8 @@ def process_img (img, face_detection):
 
 
 args = argparse.ArgumentParser()
-args.add_argument("--mode", default='webcam', choices=['image', 'video', 'webcam'])
-args.add_argument("--srcPath", default='./data/testVideo.mp4')
+args.add_argument("--mode", default='image', choices=['image', 'video', 'webcam'])
+args.add_argument("--srcPath", default='./data/testImg.png')
 args.add_argument("--dstFileName", default='testImg_output.png')
 
 args = args.parse_args()
