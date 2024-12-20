@@ -7,3 +7,6 @@
 # directories to ignore
 /data/*
 /output/*
+
+# additional files to ignore
+.DS_Store
